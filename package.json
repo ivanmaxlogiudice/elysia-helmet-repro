@@ -1,0 +1,12 @@
+{
+  "name": "elysia-monorepo-path-alias",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "^1.1.14"
+  },
+  "peerDependencies": {
+    "typescript": "^5.5.3"
+  },
+  "workspaces": ["apps/*"]
+}
